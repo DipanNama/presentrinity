@@ -1,4 +1,4 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Welcome to [Presentrinity](https://github.com/slidevjs/slidev)!
 
 To start the slide show:
 
@@ -9,3 +9,12 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev at the [documentation](https://sli.dev/).
+
+
+# TODO
+- Include dynamic images related to the topic
+- remove : form title if any available
+- include introduction slide dynamically
+- include thank you slide 
+- add v-click to the content(normal-slide) (animation)
+- include two paragraph containers and prompt for two different paragraphs
