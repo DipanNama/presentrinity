@@ -1,6 +1,6 @@
 ---
 theme: dracula
-title: Project Name
+title: Presentrinity
 hideInToc: true
 info: |
   # Project Info
@@ -35,7 +35,6 @@ canvasWidth: 980
   </code>
 </div>
 
-
 ---
 layout: image-right
 transition: fade-out
@@ -50,7 +49,7 @@ image: https://mycvcreator.com/administrator/postimages/64a7c4a7005ed1.20845803.
 <Toc
   v-click 
   minDepth="1" 
-  maxDepth="1" 
+  maxDepth="1" u
   listClass='' 
   v-motion
   :initial="{ x: -80 }"
@@ -69,7 +68,7 @@ image: https://www.medianama.com/wp-content/uploads/2024/06/ai-8529399_1920.jpg
 
 <hr style="border: 0; height: 2px; background: linear-gradient(to right, #ff7e5f, #feb47b); margin: 20px 0;" />
 
-<p style="font-size:0.7em;"
+<div style="font-size:0.7em;"
   class="text-slate-400 tracking-wide text-justify"
   v-click
   v-motion
@@ -78,7 +77,7 @@ image: https://www.medianama.com/wp-content/uploads/2024/06/ai-8529399_1920.jpg
   :leave="{ y: 80 }">
 
 Three-tier architecture is a structured design model that separates an application into three distinct layers: presentation, business logic, and data. This separation improves modularity and simplifies development and maintenance. By isolating each layer, developers can work independently on user interfaces, application logic, and database management.
-</p>
+</div>
 
 <p style="font-size:0.7em;"
   class="text-slate-400 tracking-wide text-justify"
@@ -165,7 +164,7 @@ image: https://www.medianama.com/wp-content/uploads/2024/06/ai-8529399_1920.jpg
   </code>
 </div>
 
-<p style="font-size:0.7em;"
+<div style="font-size:0.7em;"
   class="text-slate-400 tracking-wide text-justify"
   v-click
   v-motion
@@ -174,9 +173,9 @@ image: https://www.medianama.com/wp-content/uploads/2024/06/ai-8529399_1920.jpg
   :leave="{ y: 80 }">
 
 Three-tier architecture is a structured design model that separates an application into three distinct layers: presentation, business logic, and data. This separation improves modularity and simplifies development and maintenance. By isolating each layer, developers can work independently on user interfaces, application logic, and database management.
-</p>
+</div>
 
-<p style="font-size:0.7em;"
+<div style="font-size:0.7em;"
   class="text-slate-400 tracking-wide text-justify"
   v-click
   v-motion
@@ -185,7 +184,7 @@ Three-tier architecture is a structured design model that separates an applicati
   :leave="{ y: 80 }">
 
 It is widely used in enterprise systems and cloud-based applications for its flexibility. Each layer operates independently, ensuring easier maintenance and efficient performance.
-</p>
+</div>
 
 --- 
 transition: fade-out
@@ -303,6 +302,7 @@ hideInToc: true
 </div>
 
 Use code snippets and get the highlighting directly, and even types hover!
+eh! <h1>helloo</h1>
 
 ```ts {none|5|7|7-8|10|all} twoslash
 // TwoSlash enables TypeScript hover information
@@ -321,7 +321,6 @@ doubled.value = 2
 
 <!-- This allow you to embed external code blocks -->
 <<< @/snippets/external.ts#snippet
-
 
 ---
 level: 2
@@ -412,7 +411,7 @@ You can use Vue components directly inside your slides.
 We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
 
 ```html
-<Counter :count="10" />
+<Counter :count="10" /> 
 ```
 
 <!-- ./components/Counter.vue -->
@@ -529,7 +528,7 @@ Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), t
   :click-3="{ x: 80 }"
   :leave="{ x: 1000 }"
 >
-  Slidev
+  presentrinity
 </div>
 ```
 
@@ -729,7 +728,7 @@ Double-click on the draggable elements to edit their positions.
 </v-drag>
 ```
 
-<v-drag pos="623,61,261,_"undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined>
+<v-drag pos="623,61,261,_">
   <div text-center text-3xl border border-main rounded>
     Double-click me!
   </div>
@@ -775,6 +774,7 @@ import { emptyArray, sayHello } from './external'
 sayHello()
 console.log(`vue ${version}`)
 console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
+console.log('Dipan Nama')
 ```
 
 ---
